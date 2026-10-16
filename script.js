@@ -2,7 +2,7 @@ function firstChar(text) {
   // your code here
 	let trimmedText = text.trim();
 
-	if(trimmedText = ""){
+	if(trimmedText == ""){
 		return ""
 	}
 	return trimmedText.charAt(0);
